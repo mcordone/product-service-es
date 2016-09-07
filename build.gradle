@@ -62,6 +62,7 @@ dependencies {
     compile 'io.swagger:swagger-jersey2-jaxrs:1.5.6'
     compile 'org.codehaus.groovy:groovy:2.4.6'
     compile 'org.springframework:spring-test:3.2.3.RELEASE'
+    compile group: 'io.searchbox', name: 'jest', version: '2.0.2'
 
     /* TODO check how to integrate Jersey with Spring 4 */
     compile 'org.springframework:spring-beans:4.1.0.RELEASE'

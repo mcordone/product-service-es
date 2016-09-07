@@ -13,8 +13,41 @@
  */
 package com.ecom.product.bootstrap;
 
+import io.searchbox.client.JestClient;
+import io.searchbox.client.JestClientFactory;
+import io.searchbox.client.config.HttpClientConfig;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+
 /**
  * Created by jcordones13 on 9/6/16.
  */
-public class AppConfig {
+@Configuration
+@ComponentScan(basePackages = "com.ecom.product")
+@PropertySource(value = "classpath:application.properties")
+
+public class AppConfig
+{@Value("${dev.es.url}")
+private String ec_uri;
+
+    /*@Bean
+    public JestClientWrapper jestClientWrapper(){
+        return new JestClientWrapper( jestClient() );
+    }*/
+
+    @Bean
+    public JestClient jestClient() {
+
+        HttpClientConfig clientConfig = new HttpClientConfig
+                .Builder(ec_uri)
+                .multiThreaded(true)
+                .build();
+        JestClientFactory factory = new JestClientFactory();
+        factory.setHttpClientConfig(clientConfig);
+        return factory.getObject();
+    }
+
 }
