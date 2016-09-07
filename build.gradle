@@ -7,7 +7,6 @@ buildscript {
     }
     dependencies {
         classpath 'com.bmuschko:gradle-tomcat-plugin:2.2.2'
-        //classpath 'mysql:mysql-connector-java:5.1.38'
     }
 }
 apply plugin: 'java'
@@ -25,7 +24,6 @@ war.archiveName = 'accountServ.war'
 repositories {
     mavenCentral()
     mavenLocal()
-    maven { url "http://repo.maven.apache.org/maven2" }
 }
 
 tomcat {
