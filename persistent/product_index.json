@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "index": {
+      "number_of_shards": 3,
+      "number_of_replicas": 2
+    }
+  },
+  "mappings":{
+    "product":{
+      "properties":{
+        "sku" : {"type": "string"},
+        "name": {"type" : "string"},
+        "desc" : {"type": "string"},
+        "created_at" : {"type": "date"},
+        "updated_at" : {"type": "date"},
+        "price" : {"type": "double"},
+        "sale_price" : {"type": "double"},
+        "sale_status": {"type": "boolean"},
+        "stock_amount" : {"type": "string"},
+        "stock_status" : {"type": "string"},
+        "images" : {
+          "type": "string"}
+      }
+    }
+  }
+}

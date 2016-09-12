@@ -1,0 +1,2 @@
+{"index":{"_index":"products","_type":"product","_id":"1"}}\n
+{"sku" : "001","name" : "Avocado Egg Salad Croissant","desc": "Avocado Egg Salad & Tomato","price": 5.95,"sale_price": 0,"sale_status": false,"stock_amount": "","stock_status": "","created_at": "","updated_at": "","images": {}}
