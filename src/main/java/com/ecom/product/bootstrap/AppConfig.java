@@ -30,19 +30,15 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource(value = "classpath:application.properties")
 
 public class AppConfig
-{@Value("${dev.es.url}")
-private String ec_uri;
+{@Value("${dev.es.uri}")
+private String es_uri;
 
-    /*@Bean
-    public JestClientWrapper jestClientWrapper(){
-        return new JestClientWrapper( jestClient() );
-    }*/
 
     @Bean
     public JestClient jestClient() {
 
         HttpClientConfig clientConfig = new HttpClientConfig
-                .Builder(ec_uri)
+                .Builder(es_uri)
                 .multiThreaded(true)
                 .build();
         JestClientFactory factory = new JestClientFactory();

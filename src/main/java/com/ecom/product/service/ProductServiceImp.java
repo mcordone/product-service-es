@@ -13,8 +13,61 @@
  */
 package com.ecom.product.service;
 
+import com.ecom.product.model.Product;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
 /**
  * Created by jcordones13 on 9/6/16.
  */
+@Service
 public class ProductServiceImp implements ProductService{
+
+    /**
+     *
+     * @param id
+     * @return
+     */
+    public Product getProduct(long id){
+
+        return null;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public List<Product> getProducts(){
+
+        return null;
+    }
+
+    /**
+     * Create new Product
+     * @param product
+     * @return
+     */
+    public Product createProduct(Product product){
+
+        return null;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public Product updateProduct(Product product){
+
+        return null;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public long deleteProduct(){
+
+        return 0L;
+    }
 }
