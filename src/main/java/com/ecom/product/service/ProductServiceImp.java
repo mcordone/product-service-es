@@ -13,7 +13,9 @@
  */
 package com.ecom.product.service;
 
+import com.ecom.product.dao.ESDao;
 import com.ecom.product.model.Product;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -23,6 +25,11 @@ import java.util.List;
  */
 @Service
 public class ProductServiceImp implements ProductService{
+
+    @Autowired
+    private ESDao esDao;
+
+    public ProductServiceImp(){}
 
     /**
      *
@@ -50,7 +57,7 @@ public class ProductServiceImp implements ProductService{
      */
     public Product createProduct(Product product){
 
-        return null;
+        return esDao.createProduct(product);
     }
 
     /**

@@ -28,22 +28,22 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 @ComponentScan(basePackages = "com.ecom.product")
 @PropertySource(value = "classpath:application.properties")
+public class AppConfig {
 
-public class AppConfig
-{@Value("${dev.es.uri}")
-private String es_uri;
+   /* @Value("${dev.es.uri}")
+    private String es_uri;*/
 
 
-    @Bean
+    /*@Bean
     public JestClient jestClient() {
 
         HttpClientConfig clientConfig = new HttpClientConfig
-                .Builder(es_uri)
+                .Builder("http://localhost:9200/")
                 .multiThreaded(true)
                 .build();
+
         JestClientFactory factory = new JestClientFactory();
         factory.setHttpClientConfig(clientConfig);
         return factory.getObject();
-    }
-
+    }*/
 }
