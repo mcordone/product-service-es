@@ -9,7 +9,7 @@ curl -XPUT '/path/to/es/uri:port/products/' --data @/path/to/data/file
 Bulk data Command
 curl -s -XPUT localhost:9200/_bulk --data-binary "@requests"; echo
 
-#e.i: curl -XPUT 'localhost:9200/_bulk?pretty' --data-binary @./persistent/product_sample_data.json
+#e.i: curl -XPUT 'localhost:9200/_bulk?pretty' --data-binary @(absolute-path)persistent/product_sample_data.json
 
 
 #Elasticsearch docker image url:

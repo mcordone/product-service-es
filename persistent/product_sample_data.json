@@ -1,22 +1,22 @@
 {"index":{"_index":"products","_type":"product","_id":"1"}}
-{"sku" : "001", "name" : "Avocado Egg Salad Croissant","desc": "Avocado Egg Salad & Tomato","price": 5.95,"sale_price": 0,"sale_status": false,"stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "","images": {}}
+{"sku" : "001", "name" : "Avocado Egg Salad Croissant","desc": "Avocado Egg Salad & Tomato","price": 5.95,"sale_price": 0,"sale_status": false,"stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "","images": {"url":""}}
 {"index":{"_index":"products","_type":"product","_id":"2"}}
-{"sku" : "002", "name" : "Bagel with Tuna Salad", "desc": "Bagel with Tuna Salad, Tomato & Lettuce","price": 4.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "","created_at": "", "updated_at": "", "images": {}}
+{"sku" : "002", "name" : "Bagel with Tuna Salad", "desc": "Bagel with Tuna Salad, Tomato & Lettuce","price": 4.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "","created_at": "", "updated_at": "", "images": {"url":""}}
 {"index":{"_index":"products","_type":"product","_id":"3"}}
-{"sku" : "003", "name" : "Mozzarella Olive Sandwich", "desc": "Mozzarella, Tomato, Basil & Olive Tapenade on Ciabatta", "price": 8.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {}}
+{"sku" : "003", "name" : "Mozzarella Olive Sandwich", "desc": "Mozzarella, Tomato, Basil & Olive Tapenade on Ciabatta", "price": 8.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {"url":""}}
 {"index":{"_index":"products","_type":"product","_id":"4"}}
-{"sku" : "004", "name" : "Chicken Pesto Sandwich", "desc": "Chicken Breast, Tomato, Arugula, and Pesto on Fougasse", "price": 8.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {}}
+{"sku" : "004", "name" : "Chicken Pesto Sandwich", "desc": "Chicken Breast, Tomato, Arugula, and Pesto on Fougasse", "price": 8.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {"url":""}}
 {"index":{"_index":"products","_type":"product","_id":"5"}}
-{"sku" : "005", "name" : "Goat Cheese and Beets Salad", "desc": "Baby Mixed Greens, Endive, Macadamia Encrusted Goat Cheese, Macadamia Nuts, Cranberries, Beets, Pomegrate Vinaigrette", "price": 13.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {}}
+{"sku" : "005", "name" : "Goat Cheese and Beets Salad", "desc": "Baby Mixed Greens, Endive, Macadamia Encrusted Goat Cheese, Macadamia Nuts, Cranberries, Beets, Pomegrate Vinaigrette", "price": 13.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {"url":""}}
 {"index":{"_index":"products","_type":"product","_id":"6"}}
-{"sku" : "002", "name" : "Bagel with Tuna Salad", "desc": "Bagel with Tuna Salad, Tomato & Lettuce","price": 4.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "","created_at": "", "updated_at": "", "images": {}}
+{"sku" : "002", "name" : "Bagel with Tuna Salad", "desc": "Bagel with Tuna Salad, Tomato & Lettuce","price": 4.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "","created_at": "", "updated_at": "", "images": {"url":""}}
 {"index":{"_index":"products","_type":"product","_id":"7"}}
-{"sku" : "006", "name" : "Mango and Goat Cheese Salad", "desc": "Sliced Mango, Mixed Greens, Romaine Lettuce, Pumpkin Seeds and Goat Cheese with Honey Dijon Dressing", "price": 11.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {}}
+{"sku" : "006", "name" : "Mango and Goat Cheese Salad", "desc": "Sliced Mango, Mixed Greens, Romaine Lettuce, Pumpkin Seeds and Goat Cheese with Honey Dijon Dressing", "price": 11.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {"url":""}}
 {"index":{"_index":"products","_type":"product","_id":"8"}}
-{"sku" : "007", "name" : "Chicken Avocado Wrap", "desc": "Chicken Breast, Tomato, Avocado & Romaine Lettuce on wrap", "price": 9.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {}}
+{"sku" : "007", "name" : "Chicken Avocado Wrap", "desc": "Chicken Breast, Tomato, Avocado & Romaine Lettuce on wrap", "price": 9.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {"url":""}}
 {"index":{"_index":"products","_type":"product","_id":"9"}}
-{"sku" : "008", "name" : "Chicken Curry Wrap", "desc": "Diced Curry Chicken Breast, Raisins, Grapes & Romaine Lettuce on wrap.", "price": 9.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "","images": {}}
+{"sku" : "008", "name" : "Chicken Curry Wrap", "desc": "Diced Curry Chicken Breast, Raisins, Grapes & Romaine Lettuce on wrap.", "price": 9.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "","images": {"url":""}}
 {"index":{"_index":"products","_type":"product","_id":"10"}}
-{"sku" : "009", "name" : "Spinach Quiche", "desc": "Spinach & Goatcheese w/ Mozzarella. Served with House Salad and Dip.", "price": 10.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {}}
+{"sku" : "009", "name" : "Spinach Quiche", "desc": "Spinach & Goatcheese w/ Mozzarella. Served with House Salad and Dip.", "price": 10.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {"url":""}}
 {"index":{"_index":"products","_type":"product","_id":"11"}}
-{"sku" : "0010", "name" : "Broccoli Quiche", "desc": "Broccoli, Cauliflower, w/ Mozzarella. Served with House Salad and Dip.", "price": 10.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {}}
+{"sku" : "0010", "name" : "Broccoli Quiche", "desc": "Broccoli, Cauliflower, w/ Mozzarella. Served with House Salad and Dip.", "price": 10.95, "sale_price": 0, "sale_status": false, "stock_amount": "", "stock_status": "", "created_at": "", "updated_at": "", "images": {"url":""}}

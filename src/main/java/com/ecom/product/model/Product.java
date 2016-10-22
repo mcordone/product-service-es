@@ -13,13 +13,14 @@
  */
 package com.ecom.product.model;
 
-import java.util.List;
+import io.searchbox.annotations.JestId;
 
 /**
  * Created by jcordones13 on 10/13/16.
  */
 public class Product {
-    private long id;
+    @JestId
+    private String id;
     private String sku;
     private String name;
     private String desc;
@@ -30,14 +31,13 @@ public class Product {
     private String stock_status;  //"Stock Status: In Stock" displays if the Stock Status value is 1 or more."Stock Status:(Out of Stock)" displays if the Stock Status value is 0 or less.
     private String created_at;
     private String updated_at;
-    private String image;
-    private List<Image> images;
+    private Image image;
 
-    public long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -121,19 +121,11 @@ public class Product {
         this.updated_at = updated_at;
     }
 
-    public String getImage() {
+    public Image getImage() {
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(Image image) {
         this.image = image;
-    }
-
-    public List<Image> getImages() {
-        return images;
-    }
-
-    public void setImages(List<Image> images) {
-        this.images = images;
     }
 }

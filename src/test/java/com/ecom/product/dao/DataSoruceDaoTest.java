@@ -37,9 +37,10 @@ import static org.mockito.Mockito.times;
  * Created by jcordones13 on 9/16/16.
  */
 @RunWith(MockitoJUnitRunner.class)
-public class ESDaoTest {
+public class DataSoruceDaoTest {
 
-    @Mock ESDao ESDaoMock;
+    @Mock
+    DataSourceDao DataSourceDaoMock;
 
     @InjectMocks
     private ProductServiceImp clazzUnderTest = new ProductServiceImp(); //TODO look into this, it should be ESDao
@@ -58,23 +59,23 @@ public class ESDaoTest {
     public void searchProduct() throws Exception {
         JestResult expectedResult = mock(JestResult.class);
 
-        when(ESDaoMock.searchProduct(anyString())).thenReturn(expectedResult);
-        JestResult resultId = ESDaoMock.searchProduct("1");
+        when(DataSourceDaoMock.searchProduct(anyString())).thenReturn(expectedResult);
+        JestResult resultId = DataSourceDaoMock.searchProduct("1");
         assertNotNull(resultId);
 
-        verify(ESDaoMock, times(1)).searchProduct(anyString());
+        verify(DataSourceDaoMock, times(1)).searchProduct(anyString());
     }
 
     @Test
     public void createProduct() throws Exception {
         Product product = mock(Product.class);
 
-        when(ESDaoMock.createProduct(anyObject())).thenReturn(product);
+        when(DataSourceDaoMock.createProduct(anyObject())).thenReturn(product);
         Product prod = clazzUnderTest.createProduct(anyObject());
 
         assertNotNull(prod);
 
-        verify(ESDaoMock, times(1)).createProduct(anyObject());
+        verify(DataSourceDaoMock, times(1)).createProduct(anyObject());
 
     }
 
